@@ -1,0 +1,559 @@
+HTML stands for HyperText Markup Language.
+HTML is used to create web pages and web applications.
+HTML is widely used language on the web.
+We can create a static website by HTML only.
+Technically, HTML is a Markup language rather than a programming language.
+
+ex:-
+<!DOCTYPE>  
+<html>  
+<head>  
+<title>Web page title</title>  
+</head>  
+<body>  
+<h1>Write Your First Heading</h1>  
+<p>Write Your First Paragraph.</p>  
+</body>  
+</html>  
+
+What is HTML
+===============
+HTML is an acronym which stands for Hyper Text Markup Language which is used for creating web pages and web applications. Let's see what is meant by Hypertext Markup Language, and Web page.
+
+Hyper Text 
+============
+ HyperText simply means "Text within Text." A text has a link within it, is a hypertext. Whenever you click on a link which brings you to a new webpage, you have clicked on a hypertext. HyperText is a way to link two or more web pages (HTML documents) with each other.
+
+Markup language
+================
+ A markup language is a computer language that is used to apply layout and formatting conventions to a text document. Markup language makes text more interactive and dynamic. It can turn text into images, tables, links, etc.
+
+Web Page
+========
+ A web page is a document which is commonly written in HTML and translated by a web browser. A web page can be identified by entering an URL. A Web page can be of the static or dynamic type. With the help of HTML only, we can create static web pages.
+
+Description of HTML 
+====================
+<!DOCTYPE>: It defines the document type or it instruct the browser about the version of HTML.
+
+<html > :This tag informs the browser that it is an HTML document. Text between html tag describes the web document. It is a container for all other elements of HTML except <!DOCTYPE>
+
+<head>: It should be the first element inside the <html> element, which contains the metadata(information about the document). It must be closed before the body tag opens.
+
+<title>: As its name suggested, it is used to add title of that HTML page which appears at the top of the browser window. It must be placed inside the head tag and should close immediately. (Optional)
+
+
+<body> : Text between body tag describes the body content of the page that is visible to the end user. This tag contains the main content of the HTML document.
+
+<h1> : Text between <h1> tag describes the first level heading of the webpage.
+
+<p> : Text between <p> tag describes the paragraph of the webpage.
+
+
+Brief History of HTML
+=====================
+In the late 1980's , a physicist, Tim Berners-Lee who was a contractor at CERN, proposed a system for CERN researchers. In 1989, he wrote a memo proposing an internet based hypertext system.
+
+Tim Berners-Lee is known as the father of HTML. The first available description of HTML was a document called "HTML Tags" proposed by Tim in late 1991. 
+
+
+Features of HTML
+==================
+1) It is a very easy and simple language. It can be easily understood and modified.
+
+2) It is very easy to make an effective presentation with HTML because it has a lot of formatting tags.
+
+3) It is a markup language, so it provides a flexible way to design web pages along with the text.
+
+4) It facilitates programmers to add a link on the web pages (by html anchor tag), so it enhances the interest of browsing of the user.
+
+5) It is platform-independent because it can be displayed on any platform like Windows, Linux, and Macintosh, etc.
+
+6) It facilitates the programmer to add Graphics, Videos, and Sound to the web pages which makes it more attractive and interactive.
+
+7) HTML is a case-insensitive language, which means we can use tags either in lower-case or upper-case.
+
+
+=
+Text Editors
+=============
+1.Notepad
+2.Sublime Text
+
+
+
+HTML code with Notepad.
+=========================
+Notepad is a simple text editor and suitable for beginners to learn HTML. It is available in all versions of Windows, from where you easily access it.
+
+Step 1: Open Notepad (Windows)
+
+Step 2: Write code in HTML
+
+Step 3: Save the HTML file with .htm or .html extension.
+
+Step 4: Open the HTML page in your web browser.
+
+
+Building blocks of HTML
+=========================
+1.Tags: An HTML tag surrounds the content and apply meaning to it. It is written between < and > brackets.
+
+2.Attribute: An attribute in HTML provides extra information about the element, and it is applied within the start tag. An HTML attribute contains two fields: name & value.
+
+ex:-
+<html>  
+  <head>  
+    <title>The basic building blocks of HTML</title>  
+ </head>  
+  <body>  
+       <h2>Welcome to infologic</h2>  
+       <p>This is a paragraph tag</p>  
+       <p style="color: red">This is my instuite</p>  
+      
+  </body>  
+</html>     
+
+
+HTML Tags
+=========
+HTML tags are like keywords which defines that how web browser will format and display the content. With the help of tags, a web browser can distinguish between an HTML content and a simple content. HTML tags contain three main parts: opening tag, content and closing tag. But some HTML tags are unclosed tags.
+
+
+1.All HTML tags must enclosed within < > these brackets.
+2.Every tag in HTML perform different tasks.
+3.If you have used an open tag <tag>, then you must use a close tag </tag> (except some tags)
+
+
+Syntax
+<tag> content </tag>
+
+
+Tags
+====
+<b></b>->bold tag
+<i></i>->italic
+<u></u>->underline
+<p></p>->paragaraph
+
+
+ex:-
+<html>
+<head>
+<b>hi</b>
+<i>hello</i>
+<u>welocme</u>
+<p>apargaraph</p>
+</head>
+</html>
+
+
+Unclosed HTML Tags
+===================
+Some HTML tags are not closed, for example br and hr.
+
+<br> Tag: br stands for break line, it breaks the line of the code.
+
+<hr> Tag: hr stands for Horizontal Rule. This tag is used to put a line across the webpage.
+
+
+HTML Attribute
+===============
+1. HTML attributes are special words which provide additional information about the elements or attributes are the modifier of the HTML element.
+Each element or tag can have attributes, which defines the behaviour of that element.
+
+2.Attributes should always be applied with start tag.
+
+3.The Attribute should always be applied with its name and value pair.
+
+
+ex:-
+<html>  
+<head>  
+</head>  
+<body>  
+    <h1> This is Style attribute</h1>  
+   <p style="height: 50px; color: blue"></p>  hange blue colour</p>
+    <p style="color: red">It will change the color </p>  
+</body>  
+</html>  
+
+
+heading tags
+=============
+we have <h1> to<h6> tags to decrease the font size
+ex:-
+<html>
+<head>
+<h1>hello</h1>
+<h2>welcome</h2>
+<h3>hello</h3>
+<h4>hello</h5>
+<h6> welocme</h6>
+</head>
+</html>
+
+how to change the background color of text
+=============================================
+we can change the background of color of text
+
+ex:-
+<html>
+<head>
+<h1 style="background-color:green">hi hello</h1>
+</head>
+</html>
+
+how to change the background color of page
+=============================================
+we can change the color of page
+ex:-
+<html>
+<head>
+<body bgcolor:yellow">
+</body>
+</head>
+</html>
+
+
+image tags
+==========
+we can use image tag heigth and width of the image
+
+<html>
+<head>
+<img src="p.jpg">
+</head>
+</html>
+
+ex:-
+<html>
+<head>
+<img src="p.jpg" width="200" heigth="100">
+</head>
+</html>
+
+
+
+HTML Anchor
+===========
+The HTML anchor tag defines a hyperlink that links one page to another page. It can create hyperlink to other web page as well as files, location, or any URL. The "href" attribute is the most important attribute of the HTML a tag. and which links to destination page or URL.
+
+
+href attribute of HTML anchor tag
+==================================
+The href attribute is used to define the address of the file to be linked. In other words, it points out the destination page.
+
+
+ex:-
+<html>  
+<head>  
+    <title></title>  
+</head>  
+<body>  
+<a href="https://www.yahoo.com> this-link </a>
+</body>  
+</html>  
+
+
+HTML Lists
+==========
+HTML Lists are used to specify lists of information. All lists may contain one or more list elements. There are three different types of HTML lists:
+
+1.Ordered List or Numbered List (ol)
+====================================
+In  the ordered HTML lists, all the list items are marked with numbers by default. It is known as numbered list also. The ordered list starts with <ol> tag and the list items start with <li> tag.
+
+ex:-
+<html>
+<head>
+<title>this is website</title>
+<ol>
+<li>pen</p>
+<li>paper</li>
+</ol>
+</head>
+
+ex:-
+<html>
+<head>
+<ol type="A">
+<li>pen</li>
+<li>paper</li>
+</head>
+</html>
+
+ex:-
+<html>
+<head>
+<ol type="I">
+<li>pen</li>
+<li>paper</li>
+</ol>
+</head>
+</html>
+
+ex:-
+<html>
+<head>
+<ol type="a">
+<li>pen</li>
+<li>paper</li>
+</head>
+</html>
+
+2.Unordered List or Bulleted List (ul)
+======================================
+1.bullet symbols
+2.circle
+3.square
+4.disc
+
+ex:-
+<html>
+<head>
+<ul>
+<li>pen</li>
+<li>paper</li>
+</ul>
+</head>
+</html>
+
+ex:-
+<html>
+<head>
+<ul type="square">
+<li>pen</li>
+<li>paper</li>
+</ul>
+</head>
+</html>
+
+ex:-
+<html>
+<head>
+<ul type="circle">
+<li>pen</li>
+<li>paper</li>
+</head>
+</html>
+
+Html Table Tag
+================
+we can use table tag define table headings and table rows
+
+<table>->it defines table
+<tr>->it defines table row
+<th>->it defines table header cells
+<td>->it defines table cells in atable
+<tbody>	It is used to group the body content in a table.
+<thead>	It is used to group the header content in a table.
+<tfooter> it is used to group the footer content in a table.
+
+ex:-
+
+<html>
+<head>
+<table>
+<tr>
+<th>id</th>
+<th>name</th>
+<th>marks</th>
+</tr>
+<tr>
+<td>101</td>
+<td>hi</td>
+<td>1000</td>
+</tr>
+</table>
+</head>
+</html>
+
+html table borders
+===================
+we can use table borders of html
+
+ex:-
+<html>
+<head>
+<table border="10">
+<tr>
+<th>id</th>
+<th>name</th>
+<th>marks</th>
+</tr>
+<tr>
+<td>101</td>
+<td>hi</td>
+<td>1000</td>
+</tr>
+</head>
+</html>
+
+
+HTML Form
+=========
+An HTML form is a section of a document which contains controls such as text fields, password fields, checkboxes, radio buttons, submit button, menus etc.
+
+
+Why use HTML Form
+=================
+<form>->It defines an HTML form to enter inputs by the used side.
+<input>->It defines an input control.
+<textarea>It defines a multi-line input control.
+<label>->It defines a label for an input element.
+<fieldset>->It groups the related element in a form.
+<legend>->It defines a caption for a <fieldset> element.
+<select>->It defines a drop-down list.
+<optgroup>->It defines a group of related options in a drop-down list.
+<option>->It defines an option in a drop-down list.
+<button>->It defines a clickable button.
+
+ex:-
+<html>
+<head>
+<body>  
+  <form>  
+     Enter your name  <br>  
+    <input type="text" name="username">  
+  </form>  
+</body> 
+</heda>
+</html>
+
+HTML TextField Control
+======================
+The type="text" attribute of input tag creates textfield control also known as single line textfield control. The name attribute is optional, but it is required for the server side component 
+
+ex:-
+<html>
+<head>
+<body>
+<form>  
+    First Name: <input type="text" name="firstname> <br>  
+    Last Name:  <input type="text" name="lastname> <br>  
+ </form>  
+</body>
+</head>
+</html>
+
+HTML <textarea> tag in form
+==========================
+The <textarea> tag in HTML is used to insert multiple-line text in a form. The size of <textarea>
+
+ex:-
+<html>  
+<head>  
+    <title>Form in HTML</title>  
+</head>  
+<body>  
+  <form>  
+        Enter your address:<br>  
+      <textarea rows="2" cols="20"></textarea>  
+  </form>  
+</body>  
+</html>  
+
+
+HTML Password Field Control
+============================
+The password is not visible to the user in password field control.
+
+ex:-
+<form>  
+    <label for="password">Password: </label>  
+              <input type="password" id="password" name="password"/> <br/>  
+</form>  
+
+HTML  Email Field Control
+============================
+The email field in new in HTML  It validates the text for correct email address. You must use @ and . in this field.
+
+<html>
+<head>
+<form>  
+    Email: </label>  
+              <input type="email" id="email" name="email"/> <br/>  
+</form>  
+
+
+Radio Button Control
+===================
+
+The radio button is used to select one option from multiple options. It is used for selection of gender, quiz questions etc.
+
+<html>
+<head>
+<form>  
+    Gender: 
+              <input type="radio" id="gender" name="gender" value="male"/>Male  
+              <input type="radio" id="gender" name="gender" value="female"/>Female <br/>  
+</form>
+</html>
+
+Checkbox Control
+==============
+The checkbox control is used to check multiple options from given checkboxes.  
+<html>
+<head>
+<form>  
+Hobby:<br>  
+              <input type="checkbox" id="cricket" name="cricket">  
+                
+              <input type="checkbox" id="football" name="football" value="football"/>  
+                 
+              <input type="checkbox" id="hockey" name="hockey" value="hockey"/>  
+                
+</form>  
+</head>
+</html>
+
+
+Submit button control
+======================
+HTML <input type="submit"> are used to add a submit button on web page. When user clicks on submit button, then form get submit to the server.
+
+ex:-
+<html>
+<head>
+ <form>  
+     <fieldset>  
+      <legend>User Information:</legend>  
+    Enter name
+<input type="text" id="name" name="name"> 
+Enter Password
+<input type="Password" id="pass" name="pass">  
+<input type="submit" value="submit">  
+</fieldset>  
+</form>
+
+
+ex:-
+<html>  
+ <head>  
+  <title>Form in HTML</title>  
+</head>  
+ <body>  
+     <h2>Registration form</h2>  
+    <form>  
+     <fieldset>  
+        <legend>User personal information</legend>  
+        <label>Enter your full name</label><br>  
+        <input type="text" name="name"><br>  
+         <label>Enter your email</label><br>  
+         <input type="email" name="email"><br>  
+         <label>Enter your password</label><br>  
+         <input type="password" name="pass"><br>  
+         <label>confirm your password</label><br>  
+         <input type="password" name="pass"><br>  
+         <br><label>Enter your gender</label><br>  
+         <input type="radio" id="gender" name="gender" value="male"/>Male  <br>  
+         <input type="radio" id="gender" name="gender" value="female"/>Female <br/>    
+         <input type="radio" id="gender" name="gender" value="others"/>others <br/>   
+          <br>Enter your Address:<br>  
+         <textarea></textarea><br>  
+         <input type="submit" value="sign-up">  
+     </fieldset>  
+  </form>  
+ </body>  
+</html>  	
