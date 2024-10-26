@@ -1,0 +1,75 @@
+Freshers
+1. How is C# different from C?
+2. What is inheritance? Does C# support multiple inheritance?
+3. What is the difference between an Array and ArrayList in C#?
+4. What are Generics in C#?
+5. What are extension methods in C#?
+6. What are the differences between ref and out keywords?
+7. What is the difference between an abstract class and an interface?
+8. What is a managed and unmanaged code?
+9. What are the types of classes in C#?
+10. What is garbage collection in C#?
+11. What is Common Language Runtime (CLR)?
+12. What is the difference between static, public, and void?
+13.What is an object?
+14. Define Constructors.
+15.What are Jagged Arrays?
+16.What is the difference between out and ref parameters?
+17.What is the benefit of ‘using’ statement in C#?
+18. Can “this” command be used within a static method?
+19. Differentiate between Break and Continue Statement.
+20.. List the different types of comments in C#.
+21.Name all the C# access modifiers.
+22. Why do we use C# language?
+23. What is meant by Unmanaged or Managed Code?
+24.What is meant by an Abstract Class?
+25. What is meant by an Interface?
+26.What is meant by a Partial Class?
+27.What is an interface class? 
+28. What are reference types and value types?
+29. Describe the accessibility modifier “protected internal”.
+30.What’s the difference between the System.Array.CopyTo() and System.Array.Clone() ?
+31.How can the Array elements be sorted in descending order?
+32.What are generics in C# .NET?
+33.List down the most commonly used types of exceptions in .NET
+34.What are delegates?
+35.What is the difference between method overriding and method overloading?
+36.How do you inherit a class into another class in C#?
+37.What are the various ways that a method can be overloaded??
+38.Why can't the accessibility modifier be specified for methods within the interface?
+39.How can we set the class to be inherited, but prevent the method from being overridden?
+40.What is the difference between a Struct and a Class?
+41.How to use nullable types in .Net?
+42.How can we make an array with non-standard values?
+43.What is the difference between “is” and “as” operators in c#?
+44.What are indexers in C# .NET?
+45.What is the distinction between "throw" and "throw ex" in.NET?
+46.What is a Console application?
+47.What are namespaces in C#?
+48.Write features of Generics in C#?
+49.What are Events?
+50. What is a multicasting delegate in C#?
+51.In C#, what is a Hash table class?
+52.What is Multithreading with .NET?
+53.Why can't a private virtual procedure in C# be overridden?
+54.What is File Handling in C#?
+55. What is an Indexer in C#?
+56. What information can you provide regarding the XSD file in C#?
+
+
+ASP.NET
+========
+1.What is ASP.NET?
+2.Write down the features of ASP.NET?
+3. What is Common Language Runtime (CLR)?
+4.What is IIS?
+5.What is the usage of IIS?
+6.what are the main requirements for caching?
+7.What is the concept of Postback in ASP.NET?
+8.What is the used of "isPostBack" property?
+9.What is the parent class of all web server control?
+10.What is the difference between the GET method () and POST method ()?
+11.What is the difference between client-side and server-side validations in WebPages?
+12.What is the difference between trace and debug?
+13. How to sign out from forms authentication?
+14.How to display validation messages in one control?
